@@ -1,5 +1,9 @@
+######################################################################
+#############   用例演示了:                            ###############
+#############       从深度像素点获取对应的实际坐标值   ###############
+#############       获取深度值的API调用                ###############
+######################################################################
 import time
-
 import pyrealsense2 as rs
 from cv2 import cv2
 import numpy as np
@@ -38,10 +42,12 @@ if __name__ == '__main__':
         color_frame = frameset.get_color_frame()
         depth_intrin = depth_frame.profile.as_video_stream_profile().intrinsics   # 深度框架内参
         color_intrin = color_frame.profile.as_video_stream_profile().intrinsics
+        
+        # 注：深度图的像素数据表示的就是每个点的深度值                 
         distance = depth_frame.get_distance(depth_frame.width//2,depth_frame.height//2)      # 获取深度，与两点间距离不同,深度距离指的是三维坐标中的Z轴分量，depth_pixel
         depth_point = rs.rs2_deproject_pixel_to_point(color_intrin, depth_pixel, depth_scale)   # API解算深度图像中某个深度像素对应相机坐标系下的实际三维坐标
         depth_image = np.asanyarray(rs.colorizer().colorize(depth_frame).get_data())    # 给深度图着色并转换为array数组以显示彩色深度图像
-        print(depth_point)      # 输出对应的深度点[x,y,z]
+        print(depth_point，distance, sep='\n')      # 输出对应的深度点和深度值，仔细观察可知distance就等于depth_point中的Z值
         cv2.imshow('depth', depth_image)
         key = cv2.waitKey(1)
         if key == ord('q'):
