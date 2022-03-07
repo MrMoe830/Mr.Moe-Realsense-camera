@@ -53,3 +53,5 @@ if __name__ == '__main__':
         if key == ord('q'):
             break
     pipeline.stop()
+    cv2.destroyAllWindows()
+    
