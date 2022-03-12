@@ -10,5 +10,5 @@ If you find any errors in the code, comments or explanations, I hope you can con
 Email_address: 3247524712@qq.com  
 
 
-注意：我使用的相机型号是Intel Realsense D455，应用的python版本是python 3.9
-Note: The camera model Mr.Moe uses is Intel Realsense D455, and the python version of the application is python 3.9
+注意：我使用的相机型号是D455，应用的python版本是python 3.9
+Note: The camera model I used is Intel Realsense D455, and the python version of the application is python 3.9
