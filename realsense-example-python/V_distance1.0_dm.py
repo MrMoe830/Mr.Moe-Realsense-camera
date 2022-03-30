@@ -1,4 +1,4 @@
-"""双通道"""
+"""采用双通道,若单通道同时启用三种或更多数据流，可能会导致程序崩溃或接收不到帧数据"""
 import pyrealsense2 as rs
 import numpy as np
 from cv2 import cv2
