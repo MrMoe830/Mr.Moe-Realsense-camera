@@ -1,8 +1,8 @@
 #  _Mr.Moe-Realsense_example_
 
 [![License:GPL 3.0](https://img.shields.io/badge/License-GPL3.0-yellow.svg)](http://www.gnu.org/licenses/gpl-3.0.html)
-[![Github issues](https://img.shields.io/github/issues/MrMoe830/Mr.Moe-Realsense_example.svg)](https://Github.com/MrMoe830/Mr.Moe-Realsense_example/issues/)
-[![GitHub stars](https://img.shields.io/github/stars/MrMoe830/Mr.Moe-Realsense_example.svg?style=social&label=Star)](https://GitHub.com/MrMoe830/Mr.Moe-Realsense_example/stargazers/)
+[![Github issues](https://img.shields.io/github/issues/MrMoe830/Mr.Moe-Realsense-camera.svg)](https://Github.com/MrMoe830/Mr.Moe-Realsense-camera/issues/)
+[![GitHub stars](https://img.shields.io/github/stars/MrMoe830/Mr.Moe-Realsense-camera.svg?style=social&label=Star)](https://GitHub.com/MrMoe830/Mr.Moe-Realsense-camera/stargazers/)
 
 ---------
 
