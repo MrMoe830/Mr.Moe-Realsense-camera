@@ -1,9 +1,12 @@
 #  _Mr.Moe-Realsense-camera_
 
-[![License: GPL v3.0](https://img.shields.io/badge/License-GPL3.0-yellow.svg)](http://www.gnu.org/licenses/gpl-3.0.html)
-[![Github issues](https://img.shields.io/github/issues/MrMoe830/Mr.Moe-Realsense-camera.svg)](https://github.com/MrMoe830/Mr.Moe-Realsense-camera/issues/)
+[![License: GPL v3.0](https://img.shields.io/badge/License-GPL%20v3.0-blue.svg)](http://www.gnu.org/licenses/gpl-3.0.html)
+[![GitHub contributors](https://img.shields.io/github/contributors/MrMoe830/Mr.Moe-Realsense-camera.svg)](https://github.com/MrMoe830/Mr.Moe-Realsense-camera/graphs/contributors)
+[![GitHub issues](https://img.shields.io/github/issues/MrMoe830/Mr.Moe-Realsense-camera.svg)](https://github.com/MrMoe830/Mr.Moe-Realsense-camera/issues/)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/MrMoe830/Mr.Moe-Realsense-camera/graphs/commit-activity)
 ![Coverage](https://codecov.io/gh/MrMoe830/Mr.Moe-Realsense-camera/branch/master/graph/badge.svg)
+
+[![GitHub Watchers](https://img.shields.io/github/watchers/MrMoe830/Mr.Moe-Realsense-camera.svg?style=social&label=Watch)](https://github.com/MrMoe830/Mr.Moe-Realsense-camera/watchers/)
 [![GitHub stars](https://img.shields.io/github/stars/MrMoe830/Mr.Moe-Realsense-camera.svg?style=social&label=Star)](https://GitHub.com/MrMoe830/Mr.Moe-Realsense-camera/stargazers/)
 
 ---------
